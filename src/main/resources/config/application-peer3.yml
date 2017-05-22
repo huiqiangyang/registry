@@ -25,8 +25,8 @@ server:
     port: 8761
 
 eureka:
-    instance:
-        hostname: eureka-peer-3
+#    instance:
+#        hostname: eureka-peer-3
     server:
         # see discussion about enable-self-preservation:
         # https://github.com/jhipster/generator-jhipster/issues/3654
