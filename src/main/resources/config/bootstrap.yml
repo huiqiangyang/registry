@@ -12,12 +12,14 @@ spring:
         config:
             server:
                 git:
-                    uri: https://github.com/jhipster/jhipster-registry-sample-config
+                    uri: https://git.oschina.net/huicode/registry-config.git
+                    username: 18744233362@163.com
+                    password: yhq.jyj.123
                 native:
                     search-locations: file:./central-config
                 prefix: /config
                 bootstrap: true
-            fail-fast: true
+            fail-fast: false
             # name of the config server's property source (file.yml) that we want to use
             name: jhispter-registry
             profile: dev # profile(s) of the property source
