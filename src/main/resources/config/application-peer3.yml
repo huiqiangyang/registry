@@ -25,8 +25,8 @@ server:
     port: 8761
 
 eureka:
-    instance:
-        hostname: eureka-peer-3
+#    instance:
+#        hostname: eureka-peer-3
     server:
         # see discussion about enable-self-preservation:
         # https://github.com/jhipster/generator-jhipster/issues/3654
@@ -40,4 +40,4 @@ eureka:
         fetch-registry: true
         register-with-eureka: true
         service-url:
-            defaultZone: https://admin:${security.user.password:admin}@hui-registry1.herokuapp.com/eureka/,https://admin:${security.user.password:admin}@hui-registry2.herokuapp.com/eureka/,
+            defaultZone: https://admin:${security.user.password:admin}@hui-registry1.herokuapp.com/eureka/,https://admin:${security.user.password:admin}@hui-registry2.herokuapp.com/eureka/
