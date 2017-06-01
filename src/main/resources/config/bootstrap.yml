@@ -12,7 +12,7 @@ spring:
         config:
             server:
                 git:
-                    uri: https://git.oschina.net/huicode/registry-config.git
+                    uri: https://git.oschina.net/hui-microservice/registry-config.git
                     username: 18744233362@163.com
                     password: yhq.jyj.123
                 native:
