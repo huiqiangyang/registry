@@ -602,9 +602,9 @@
         </profile>
         <profile>
             <id>dev</id>
-           <!-- <activation>
+            <activation>
                 <activeByDefault>true</activeByDefault>
-            </activation>-->
+            </activation>
             <dependencies>
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
@@ -636,9 +636,6 @@
         </profile>
         <profile>
             <id>prod</id>
-             <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <dependencies>
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
