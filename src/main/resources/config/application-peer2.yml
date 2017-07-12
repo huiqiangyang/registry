@@ -40,4 +40,4 @@ eureka:
         fetch-registry: true
         register-with-eureka: true
         service-url:
-            defaultZone: https://admin:${security.user.password:admin}@hui-registry1.herokuapp.com/eureka/
+            defaultZone: https://admin:${security.user.password:admin}@hui-registry1.herokuapp.com/eureka/,https://admin:${security.user.password:admin}@hui-registry2.herokuapp.com/eureka/,https://admin:${security.user.password:admin}@hui-registry3.herokuapp.com/eureka/
